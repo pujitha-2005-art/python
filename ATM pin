@@ -1,0 +1,15 @@
+ "pin=int(input('enter your 4-digit pin number:'))\n",
+    "spin=1234\n",
+    "balance=5000\n",
+    "if pin==spin:\n",
+    "    print('Access Granted')\n",
+    "    withdraw=int(input('enter amount:'))\n",
+    "    if withdraw>balance:\n",
+    "        print('Insufficient funds!!')\n",
+    "    else:\n",
+    "        print('Amount withdraw:',withdraw)\n",
+    "        print('Remaining balance:',balance-withdraw)\n",
+    "        print('Thankyou for banking with ICICI...')\n",
+    "else:\n",
+    "    print('Access denied...Wrong pin')"
+   
